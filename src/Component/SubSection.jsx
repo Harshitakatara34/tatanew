@@ -13,7 +13,7 @@ import {
   const Feature = ({ heading, image }) => {
     return (
       <GridItem>
-        {image ? <Image src={image} alt="" m={"auto"} flexShrink={0} /> : <div className="partner"><p>Our Partners</p></div>}
+        {image ? <Image src={image} alt="" m={"auto"}  /> : <div className="partner"><p>Our Partners</p></div>}
         <Text className="heading">
           {heading}
         </Text>
