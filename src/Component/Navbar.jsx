@@ -140,7 +140,7 @@ const DesktopNav = () => {
                   textDecoration: "none",
                   color: linkHoverColor,
                 }}
-                className="navbarRoutes"
+                className="Routes"
               >
                 {navItem.label}
               </Box>

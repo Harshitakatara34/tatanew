@@ -1,51 +1,53 @@
 .bgImage {
+  position: relative;
+  background-size: contain;
   background-image: url(../Images/iPhone.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
+  background-position: center;
 }
 
 .decor {
+  font-weight: 400;
+  text-decoration-line: underline;
   color: var(--light-on-surface-high-contrast, #2a2a2a);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Proxima Nova A;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 20px; /* 125% */
-  text-decoration-line: underline;
+  font-family: Proxima Nova A;
+  line-height: 20px; 
+
 }
 
 .applyButton3 {
-  border-radius: 4px;
   background: var(--1, #8800ec);
+  border-radius: 4px;
+  align-items: center;
   display: flex;
-  width: 168px;
   height: 56px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  width: 168px;
   flex-shrink: 0;
   color: white;
 }
 
 .gift {
-  color: #000;
-  font-family: Proxima Nova A;
-  font-size: 22px;
   font-style: normal;
+  font-family: Proxima Nova A;
+  color: #000;
+  line-height: 24px; 
+  font-size: 22px;
   font-weight: 400;
-  line-height: 24px; /* 109.091% */
+ 
 }
 
 .Earn {
-  color: #2a2a2a;
-  font-family: Proxima Nova A;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 137.8%; /* 60.632px */
   text-transform: capitalize;
+  color: #2a2a2a;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 137.8%; 
+  font-weight: 600;
+  font-family: Proxima Nova A;
+ 
 }

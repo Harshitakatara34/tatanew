@@ -1,66 +1,65 @@
 .boldText {
   color: #2a2a2a;
   font-family: Proxima Nova A;
+  text-align: left;
   font-size: 60px;
-  font-style: normal;
   font-weight: 700;
+  margin-top: 80px;
+  font-style: normal;
   line-height: 96px;
   text-transform: capitalize;
-  text-align: left;
-  margin-top: 80px;
 }
 
 .span1 {
-  color: #ff0096;
-  font-family: Proxima Nova A;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 96px;
   text-transform: capitalize;
+  font-weight: 700;
+  color: #ff0096;
+  font-style: normal;
+  font-family: Proxima Nova A;
+  font-size: 60px;
 }
 
 .bg {
   background: url(../Images/father.png), no-repeat;
-  background-repeat: no-repeat;
   width: "100%";
+  background-repeat: no-repeat; 
   height: auto;
-  object-fit: contain;
-  flex-shrink: 0;
+
 }
 
 .flexText {
   color: #2a2a2a;
-  font-family: Proxima Nova A;
-  font-size: 22px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  text-transform: capitalize;
+  font-family: Proxima Nova A;
   text-align: left;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 
 .flexDes {
-  color: #2a2a2a;
-  font-family: Proxima Nova A;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   text-transform: capitalize;
+  color: #2a2a2a;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: Proxima Nova A;
+  line-height: normal;
+  font-style: normal;
 }
 
 .applyButton {
   border-radius: 4px;
-  background: var(--1, #8800ec);
+  margin-top: 40px;
   display: flex;
   width: 168px;
   height: 56px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   color: white;
-  margin-top: 40px;
+  justify-content: center;
+  background: var(--1, #8800ec);
+
 }
 

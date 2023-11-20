@@ -20,27 +20,27 @@ const arr = [
   },
   {
     id: 2,
-    title: "Lorem Ipsum Dolor Sit Amet",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
   {
     id: 3,
-    title: "Lorem Ipsum Dolor Sit Amet, Consectetur",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
   {
     id: 4,
-    title: "Lorem Ipsum Dolor Sit Amet, Consectetur",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
   {
     id: 5,
-    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
   {
     id: 6,
-    title: "Lorem Ipsum",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
   {
     id: 7,
-    title: "Lorem Ipsum Dolor Sit",
+    title: "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit",
   },
 ];
 
