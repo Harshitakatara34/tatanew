@@ -1,0 +1,66 @@
+.boldText {
+  color: #2a2a2a;
+  font-family: Proxima Nova A;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 80px;
+}
+
+.span1 {
+  color: #ff0096;
+  font-family: Proxima Nova A;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 96px;
+  text-transform: capitalize;
+}
+
+.bg {
+  background: url(../Images/father.png), no-repeat;
+  background-repeat: no-repeat;
+  width: "100%";
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.flexText {
+  color: #2a2a2a;
+  font-family: Proxima Nova A;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.flexDes {
+  color: #2a2a2a;
+  font-family: Proxima Nova A;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.applyButton {
+  border-radius: 4px;
+  background: var(--1, #8800ec);
+  display: flex;
+  width: 168px;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: white;
+  margin-top: 40px;
+}
+
